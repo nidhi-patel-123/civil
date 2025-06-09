@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UXon Single Page Website</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Bootstrap & Font Awesome -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top ">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <span class="logo-circle"><span style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">𝙐</span></span>XON
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#home">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">ABOUT-US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">SERVICES</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#blog">BLOG</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" href="#project">PROJECT</a>
+        </li>
+            <li class="nav-item">
+          <a class="nav-link" href="#team">TEAM</a>
+        </li>
+      </ul>
+    </div>
+    <a href="#contact" class="btn contact-btn d-none d-lg-inline-block">CONTACT-US<i class="fas fa-plus"></i></a>
+  </div>
+</nav>
+
+
+<!-- Hero Section -->
+<section id="home" class="d-flex align-items-center text-center">
+  <div class="container">
+    <h1>MOST SUCCESSFUL UXON<br>BUSINESS FIRM.</h1>
+    <div class="mt-4">
+      <a href="#services" class="btn btn-orange">SERVICES DETAILS <i class="fas fa-plus"></i></a>
+      <a href="#about" class="btn btn-dark-outline">ABOUT MORE <i class="fas fa-plus"></i></a>
+    </div>
+  </div>
+  
+</section>
+
+
+
+<!-- About Section -->
+<section class="about-industry-section py-5" id="about" data-aos="fade-up">
+  <div class="container">
+    <div class="row align-items-center">
+      <h1 style="color: black;font-weight: bolder;font-family: serif;" class="text-center">ABOUT-US</h1>
+      <!-- Left Images -->
+      <div class="col-lg-6 position-relative mb-5 mb-lg-0">
+        <span class="rotate-text position-absolute text-warning fw-semibold">SINCE 1ST APRIL 1972</span>
+
+        <div class="main-img">
+          <img src="./image/about.png" class="img-fluid hover-img rounded" alt="">
+        </div>
+
+    
+
+        <div class="sub-img-2 position-absolute">
+          <img src="https://img.freepik.com/free-photo/building-construction-worker-site_23-2149124273.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid&w=740" class="img-fluid rounded hover-img" alt="">
+          <div class="video-play">
+            <a href="https://www.youtube.com/watch?v=t5cJB6JL0_k"><i class="fas fa-play" style="color: orange;"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Text -->
+      <div class="col-lg-6">
+        <div class="text-center text-lg-start">
+          <div class="mb-3 text-uppercase fw-bold small text-warning">
+            Industry Construction <br><span>WE WILD YOU DREAM</span>
+          </div>
+          
+<h3 class="fw-bold text-black text-center text-md-start fs-2 fs-md-2">
+  We design and build<br>
+  innovative platforms for<br>
+  inspiring brands
+</h3>
+
+          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam neque, facere voluptatum eligendi corporis ab nostrum at perspiciatis autem pariatur in doloribus, molestias tenetur, provident et placeat exercitationem magnam consequatur.</p>
+
+          <p class="text-muted">Laudantium ipsa doloremque incidunt maiores. Molestiae assumenda, eius ducimus est veniam deleniti nihil error consequatur dolore dolor odio iste quas voluptate quos?</p>
+
+          <!-- Pagination Buttons -->
+          <div class="d-flex mt-4 align-items-center">
+            <div class="page-btn active">1</div>
+            <div class="page-btn">2</div>
+            <div class="page-btn">3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Benefits Row -->
+    <div class="row text-center justify-content-center mt-5">
+      <!-- Box 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="benefit-box p-3">
+          <img src="./image/a1.webp" alt="Top Rated" class="mb-3 benefit-icon">
+          <h5 class="fw-bold">Top Rated</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia odio eum corporis consequatur.</p>
+        </div>
+      </div>
+      <!-- Box 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="benefit-box p-3">
+          <img src="./image/a2.webp" alt="Best Quality" class="mb-3 benefit-icon">
+          <h5 class="fw-bold">Best Quality</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia odio eum corporis consequatur.</p>
+        </div>
+      </div>
+      <!-- Box 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="benefit-box p-3">
+          <img src="./image/a3.webp" alt="Low Cost" class="mb-3 benefit-icon">
+          <h5 class="fw-bold">Low Cost</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia odio eum corporis consequatur.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="services" class="position-relative">
+  <!-- Hero Background -->
+  <div class="services-hero position-relative">
+    <div class="services-overlay"></div>
+    <div class="services-content text-center text-white">
+      <p class="section-subtitle">WHAT WE DO FOR YOU</p>
+      <div class="section-title-bar"></div>
+      <h2 class="section-title">OUR SERVICES</h2>
+    </div>
+  </div>
+
+  <!-- Cards -->
+  <div class="container services-cards-container">
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4">
+        <div class="service-box text-center">
+          <img src="./image/s1.png" class="service-icon" alt="Construction">
+          <h5 class="fw-bold">Building Construction</h5>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry..</p>
+          <button class="read-more-btn">READ MORE</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box text-center">
+          <img src="./image/s2.png" class="service-icon" alt="Renovation">
+          <h5 class="fw-bold">Building Renovation</h5>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry..</p>
+          <button class="read-more-btn">READ MORE</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box text-center">
+          <img src="./image/s3.png" class="service-icon" alt="Architecture">
+          <h5 class="fw-bold">Architecture Design</h5>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry..</p>
+          <button class="read-more-btn">READ MORE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <div class="container py-5">
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="s-box">
+          <img src="./image/service1.avif" alt="General construction">
+          <div class="overlay">
+            <h5>General construction</h5>
+            <p>Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus.</p>
+            <a href="#" class="btn btn-sm">READ MORE</a>
+          </div>
+          <div class="bottom-label">
+            <span>General construction</span>
+            <i class="fas fa-tools"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="s-box">
+          <img src="./image/service2.avif" alt="Property maintenance">
+          <div class="overlay">
+            <h5>Property maintenance</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-sm">READ MORE</a>
+          </div>
+          <div class="bottom-label">
+            <span>Property maintenance</span>
+            <i class="fas fa-users-cog"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="s-box">
+          <img src="./image/service3.avif" alt="Project management">
+          <div class="overlay">
+            <h5>Project management</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-sm">READ MORE</a>
+          </div>
+          <div class="bottom-label">
+            <span>Project management</span>
+            <i class="fas fa-project-diagram"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="s-box">
+          <img src="./image/service4.avif" alt="Virtual design & build">
+          <div class="overlay">
+            <h5>Virtual design & build</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-sm">READ MORE</a>
+          </div>
+          <div class="bottom-label">
+            <span>Virtual design & build</span>
+            <i class="fas fa-clipboard-list"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="s-box">
+          <img src="./image/service5.avif" alt="Preconstruction">
+          <div class="overlay">
+            <h5>Preconstruction</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-sm">READ MORE</a>
+          </div>
+          <div class="bottom-label">
+            <span>Preconstruction</span>
+            <i class="fas fa-drafting-compass"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="s-box">
+          <img src="./image/service6.avif" alt="Design build">
+          <div class="overlay">
+            <h5>Design build</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-sm">READ MORE</a>
+          </div>
+          <div class="bottom-label">
+            <span>Design build</span>
+            <i class="fas fa-rocket"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+
+<!-- Blog Section -->
+<section id="blog" class="py-5 text-center bg-light mt-5">
+  <div class="container" data-aos="fade-up">
+    <h1 class="text-uppercase  mb-2" style="color: black;font-weight: bolder;font-family: serif;">Blog</h1>
+    <h2 class="fw-bold mb-5">
+      <span class="border-bottom border-warning border-3 pb-1 text-black">Latest From Our Blog</span>
+    </h2>
+    
+    <div class="row">
+      <!-- Blog Card 1 -->
+      <div class="col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="position-relative">
+            <img src="https://img.freepik.com/free-photo/modern-building-construction_23-2151933439.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid&w=740" class="card-img-top" alt="Blog 1">
+            <div class="position-absolute top-0 start-0 text-white p-2 d-flex align-items-center">
+              <img src="https://i.pravatar.cc/40?img=1" class="rounded-circle me-2" width="30" height="30" alt="Author">
+              <strong>HENRY HUNTER</strong>
+            </div>
+            <div class="position-absolute bottom-0 end-0 bg-warning text-dark px-3 py-1">
+              10 AUG 2020
+            </div>
+          </div>
+          <div class="card-body text-start">
+            <small class="text-warning fw-bold">ELECTRICITY</small>
+            <h5 class="fw-bold mt-2">Creating quality urban lifestyles, building stronger.</h5>
+            <a href="blogdetails.html" class="btn-read mt-3 d-inline-block">READ MORE</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Card 2 -->
+      <div class="col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="position-relative">
+            <img src="https://img.freepik.com/premium-photo/construction-engineers-working-construction-site-management-construction-site_28668-42.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid&w=740" class="card-img-top" alt="Blog 2">
+            <div class="position-absolute top-0 start-0 text-white p-2 d-flex align-items-center">
+              <img src="https://i.pravatar.cc/40?img=2" class="rounded-circle me-2" width="30" height="30" alt="Author">
+              <strong>OSCAR WESTON</strong>
+            </div>
+            <div class="position-absolute bottom-0 end-0 bg-warning text-dark px-3 py-1">
+              10 AUG 2020
+            </div>
+          </div>
+          <div class="card-body text-start">
+            <small class="text-warning fw-bold">CONSTRUCTION</small>
+            <h5 class="fw-bold mt-2">We’ll nail your next project, because nobody wants!</h5>
+            <a href="blogdetails.html" class="btn-read mt-3 d-inline-block">READ MORE</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Card 3 -->
+      <div class="col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="300">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="position-relative">
+            <img src="https://img.freepik.com/free-photo/residential-house-process-building_23-2147694705.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid&w=740" class="card-img-top" alt="Blog 3">
+            <div class="position-absolute top-0 start-0 text-white p-2 d-flex align-items-center">
+              <img src="https://i.pravatar.cc/40?img=3" class="rounded-circle me-2" width="30" height="30" alt="Author">
+              <strong>RUBIN SANTRO</strong>
+            </div>
+            <div class="position-absolute bottom-0 end-0 bg-warning text-dark px-3 py-1">
+              10 AUG 2020
+            </div>
+          </div>
+          <div class="card-body text-start">
+            <small class="text-warning fw-bold">RENOVATION</small>
+            <h5 class="fw-bold mt-2">Helping you and your house become better.</h5>
+            <a href="blogdetails.html" class="btn-read mt-3 d-inline-block">READ MORE</a>
+          </div>
+        </div>
+      </div>
+
+           <!-- Blog Card 4 -->
+      <div class="col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="position-relative">
+            <img src="https://img.freepik.com/premium-photo/construction-worker-truss-installation_33835-781.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid&w=740" class="card-img-top" alt="Blog 1">
+            <div class="position-absolute top-0 start-0 text-white p-2 d-flex align-items-center">
+              <img src="https://i.pravatar.cc/40?img=1" class="rounded-circle me-2" width="30" height="30" alt="Author">
+              <strong>HENRY HUNTER</strong>
+            </div>
+            <div class="position-absolute bottom-0 end-0 bg-warning text-dark px-3 py-1">
+              10 AUG 2020
+            </div>
+          </div>
+          <div class="card-body text-start">
+            <small class="text-warning fw-bold">ELECTRICITY</small>
+            <h5 class="fw-bold mt-2">Creating quality urban lifestyles, building stronger.</h5>
+            <a href="blogdetails.html" class="btn-read mt-3 d-inline-block">READ MORE</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Card 5 -->
+      <div class="col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="position-relative">
+            <img src="https://img.freepik.com/premium-photo/building-construction-construction-site-which-build-highrise-buildings_252085-7629.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid&w=740" class="card-img-top" alt="Blog 2">
+            <div class="position-absolute top-0 start-0 text-white p-2 d-flex align-items-center">
+              <img src="https://i.pravatar.cc/40?img=2" class="rounded-circle me-2" width="30" height="30" alt="Author">
+              <strong>OSCAR WESTON</strong>
+            </div>
+            <div class="position-absolute bottom-0 end-0 bg-warning text-dark px-3 py-1">
+              10 AUG 2020
+            </div>
+          </div>
+          <div class="card-body text-start">
+            <small class="text-warning fw-bold">CONSTRUCTION</small>
+            <h5 class="fw-bold mt-2">We’ll nail your next project, because nobody wants!</h5>
+            <a href="blogdetails.html" class="btn-read mt-3 d-inline-block">READ MORE</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Card 6 -->
+      <div class="col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="300">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="position-relative">
+            <img src="https://img.freepik.com/premium-photo/construction-site-with-cranes-construction-worker_33835-508.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid&w=740" class="card-img-top" alt="Blog 3">
+            <div class="position-absolute top-0 start-0 text-white p-2 d-flex align-items-center">
+              <img src="https://i.pravatar.cc/40?img=3" class="rounded-circle me-2" width="30" height="30" alt="Author">
+              <strong>RUBIN SANTRO</strong>
+            </div>
+            <div class="position-absolute bottom-0 end-0 bg-warning text-dark px-3 py-1">
+              10 AUG 2020
+            </div>
+          </div>
+          <div class="card-body text-start">
+            <small class="text-warning fw-bold">RENOVATION</small>
+            <h5 class="fw-bold mt-2">Helping you and your house become better.</h5>
+            <a href="blogdetails.html" class="btn-read mt-3 d-inline-block">READ MORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Project Section -->
+<section id="project" class="text-center py-5">
+  <div class="container-fluid">
+    <div style="margin-top: 50px;">
+      <h1 style="color: black;font-family: serif;font-weight: bolder;">OUR~PROJECTS</h1>
+    </div>
+    <div class="row g-0">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="project-item" data-aos="fade-up">
+          <img src="./image/c2.avif" alt="">
+          <div class="overlay">
+            <div class="text">
+              <h5>Rooms & halls</h5>
+              <p>Branding and Brochure</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="project-item" data-aos="fade-up" data-aos-delay="100">
+           <img src="./image/c1.avif" alt="">
+          <div class="overlay">
+            <div class="text">
+              <h5>Heavy Machines</h5>
+              <p>Transport Services</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="project-item" data-aos="fade-up" data-aos-delay="200">
+         <img src="./image/c3.avif" alt="">
+          <div class="overlay">
+            <div class="text">
+              <h5>Workers</h5>
+              <p>Structural Setup</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="project-item" data-aos="fade-up" data-aos-delay="300">
+          <img src="./image/c4.avif" alt="">
+          <div class="overlay">
+            <div class="text">
+              <h5>Planning</h5>
+              <p>Site Layout</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="project-item" data-aos="fade-up" data-aos-delay="400">
+  <img src="./image/c5.avif" alt="">
+          <div class="overlay">
+            <div class="text">
+              <h5>Precision</h5>
+              <p>Measurement Work</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="project-item" data-aos="fade-up" data-aos-delay="500">
+          <img src="./image/c6.avif" alt="">
+          <div class="overlay">
+            <div class="text">
+              <h5>Building</h5>
+              <p>In Progress</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ------team----------- -->
+<section class="container py-5 text-center" id="team" style="color: black;">
+  <div style="margin-top: 50px;">
+      <h1 style="color: black;font-family: serif;font-weight: bolder;">OUR~TEAM</h1>
+  </div>
+  <div class="row g-4">
+    <!-- Card 1 -->
+    <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="team-card">
+        <div class="team-img">
+          <img src="./image/t1.avif" alt="Carmine Endrizzi">
+        </div>
+        <div class="team-info">
+          <h5>Carmine Endrizzi</h5>
+          <p>Builder Advisor</p>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Card 2 -->
+    <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+      <div class="team-card">
+        <div class="team-img">
+          <img src="./image/t2.avif" alt="Richard Landry">
+        </div>
+        <div class="team-info">
+          <h5>Richard Landry</h5>
+          <p>CEO & Engineer</p>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+      <div class="team-card">
+        <div class="team-img">
+          <img src="./image/t3.avif" alt="Michael Lindsey" style="height: 280px;object-fit: cover;">
+        </div>
+        <div class="team-info">
+          <h5>Michael Lindsey</h5>
+          <p>Construction Worker</p>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+     <!-- Card 4 -->
+    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+      <div class="team-card">
+        <div class="team-img">
+          <img src="./image/t4.jpg" alt="Michael Lindsey" style="height: 280px;object-fit: cover;">
+        </div>
+        <div class="team-info">
+          <h5>Michael Lindsey</h5>
+          <p>Construction Worker</p>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- Card 5 -->
+    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+      <div class="team-card">
+        <div class="team-img">
+          <img src="https://img.freepik.com/premium-photo/front-view-serene-determined-female-building-supervisor-hardhat-inspecting-new-construction-object_259150-52779.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid&w=740" alt="Michael Lindsey" style="height: 280px;object-fit: cover;">
+        </div>
+        <div class="team-info">
+          <h5>Michael Lindsey</h5>
+          <p>Construction Worker</p>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+     <!-- Card 6 -->
+    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+      <div class="team-card">
+        <div class="team-img">
+          <img src="./image/t6.jpg" alt="Michael Lindsey" style="height: 280px;object-fit: cover;">
+        </div>
+        <div class="team-info">
+          <h5>Michael Lindsey</h5>
+          <p>Construction Worker</p>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="contact-section py-5 text-center" id="contact">
+  <div class="container">
+  
+<div>
+  <h1 style="color: black;font-family: serif;font-weight: bolder;margin-bottom: 40px;">CONTACT~US</h1>
+</div>
+    <div class="contact-form bg-white p-5 rounded shadow" data-aos="fade-up">
+      <small class="text-uppercase  fw-bold" style="color:orange">Request a Quote</small>
+      <h3 class="fw-bold mt-2 mb-4" style="color: black;">How May We Help You!</h3>
+      <form>
+        <div class="row mb-3">
+          <div class="col-md-6 mb-3 mb-md-0">
+            <input type="text" class="form-control" placeholder="Name *" required>
+          </div>
+          <div class="col-md-6">
+            <input type="email" class="form-control" placeholder="Email *" required>
+          </div>
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Subject *" required>
+        </div>
+        <div class="mb-4">
+          <textarea class="form-control" rows="5" placeholder="Write a Message" required></textarea>
+        </div>
+        <button type="submit" class="read-more-btn  px-4">Send Message</button>
+      </form>
+    </div>
+      <div class="row text-center mb-5 mt-5">
+      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 border-0 shadow-sm p-4">
+          <div class="mb-3 fs-2 text-primary">
+          <i class="fa-solid fa-square-phone" style="color: #f29111;"></i>
+          </div>
+          <h5 class="fw-bold">Give us a call</h5>
+          <p class="mb-1">(+1) 400 430 123</p>
+          <p>(+2) 500 950 456</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="card h-100 border-0 shadow-sm p-4">
+          <div class="mb-3 fs-2">
+          <i class="fa-solid fa-envelope-circle-check" style="color: #f29111;"></i>
+          </div>
+          <h5 class="fw-bold">Drop us a line</h5>
+          <p class="mb-1">UXon@12345.com</p>
+          <p>mail@UXon@12345.com</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="card h-100 border-0 shadow-sm p-4">
+          <div class="mb-3 fs-2">
+          <i class="fa-solid fa-map-location-dot" style="color: #f29111 ;"></i>
+          </div>
+          <h5 class="fw-bold">Visit our office</h5>
+          <p>New York, 112 W 34th St<br>Caroline, USA</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Background Map Layer -->
+<!-- Embedded Google Map -->
+<div class="map-bg mt-5">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.905667277117!2d-73.99108442403494!3d40.7505049713876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259af18f3eebb%3A0xc80b8f06e177fe62!2s112%20W%2034th%20St%2C%20New%20York%2C%20NY%2010119%2C%20USA!5e0!3m2!1sen!2sin!4v1717087363964!5m2!1sen!2sin"
+    width="100%" height="400" style="border:0; filter: grayscale(100%) opacity(0.6);" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+</section>
+
+
+<footer class="footer-section text-white pt-5 pb-3 position-relative">
+  <div class="black-overlay"></div>
+
+  <div class="container position-relative">
+    <div class="row text-white">
+      <!-- About Us -->
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold mb-3">About Us</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sint deleniti inventore, eveniet at temporibus ducimus quo reprehenderit veniam libero, similique nihil neque ipsum porro!</p>
+        <div class="d-flex gap-3 mt-3">
+          <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+      </div>
+
+      <!-- Contact Us -->
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold mb-3">Contact Us</h5>
+        <p><i class="fas fa-map-marker-alt me-2"></i>256, 1st AVE, Manchester 125, North England</p>
+        <p><i class="fas fa-phone-alt me-2"></i>+012 345 678 102</p>
+        <p><i class="fas fa-phone-alt me-2"></i>+012 345 678 101</p>
+        <p><i class="fas fa-envelope me-2"></i>info@example.com</p>
+        <p><i class="fas fa-globe me-2"></i>www.example.com</p>
+      </div>
+
+      <!-- Instagram Feed -->
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold mb-3">Instagram Feed</h5>
+        <div class="row g-2">
+          <div class="col-4"><img src="./image/t1.avif" class="img-fluid" alt=""></div>
+          <div class="col-4"><img src="./image/c1.avif" class="img-fluid" alt=""></div>
+          <div class="col-4"><img src="./image/service1.avif" class="img-fluid" alt=""></div>
+          <div class="col-4"><img src="./image/service2.avif" class="img-fluid" alt=""></div>
+          <div class="col-4"><img src="./image/service3.avif" class="img-fluid" alt=""></div>
+          <div class="col-4"><img src="./image/service4.avif" class="img-fluid" alt=""></div>
+          <div class="col-4"><img src="./image/c5.avif" class="img-fluid" alt=""></div>
+          <div class="col-4"><img src="./image/t3.avif" class="img-fluid" alt=""></div>
+          <div class="col-4"><img src="./image/c4.avif" class="img-fluid" alt=""></div>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold mb-3">Newsletter</h5>
+        <p>Subscribe our newsletter and get all latest news about our latest properties, promotions, offers and discount</p>
+        <form class="d-flex">
+          <input type="email" class="form-control me-2" placeholder="Email Here..">
+          <button type="submit" class="btn btn-warning" style="background-color: orange;"><i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <hr class="bg-light">
+
+    <div class="text-center">
+      <p class="mb-0">&copy;2021 Koncrete. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  // Active link change on scroll
+  const sections = document.querySelectorAll("section[id]");
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop;
+      if (pageYOffset >= sectionTop - 60) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach((link) => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === `#${current}`) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+
+</body>
+</html>
