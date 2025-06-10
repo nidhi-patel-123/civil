@@ -125,10 +125,9 @@
       }
     }
  /* ---------------------------------about--------------------------- */
- .about-industry-section {
+.about-industry-section {
   position: relative;
   overflow: hidden;
-  height: 60vh;
 }
 
 .rotate-text {
@@ -145,38 +144,29 @@
 
 .main-img img {
   width: 100%;
-  height: 500px;
+  height: auto;
+  max-height: 500px;
   object-fit: cover;
-  transition: all 0.3s ease-in-out;
   border-radius: 8px;
+  transition: all 0.3s ease-in-out;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.sub-img-1,
 .sub-img-2 {
   position: absolute;
+  bottom: -40px;
+  right: 0;
   width: 45%;
   z-index: 2;
 }
 
-.sub-img-1 {
-  bottom: -40px;
-  left: 0;
-}
-
-.sub-img-2 {
-  bottom: -40px;
-  right: 0;
-}
-
-.sub-img-1 img,
 .sub-img-2 img {
-  height: 250px;
   width: 100%;
+  height: 250px;
   object-fit: cover;
-
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
   transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .hover-img:hover {
@@ -200,21 +190,19 @@
   color: orange;
   font-size: 18px;
   z-index: 10;
-  box-shadow: 0 0 8px rgba(0,0,0,0.15);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
 }
 
 .page-btn {
   width: 45px;
   height: 45px;
   background-color: #e7e7e7;
-  color: rgb(0, 0, 0);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
-
-  font-weight: bold;
-  cursor: pointer;
   transition: background 0.3s ease;
 }
 
@@ -223,13 +211,12 @@
   background-color: orange;
   color: white;
 }
+
 .benefit-box {
- background-color: rgba(131, 131, 131, 0.151);
- margin-top: 40px;
+  background-color: rgba(131, 131, 131, 0.151);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 100%;
-  margin-bottom: -20px;
   color: #000;
+  height: 100%;
 }
 
 .benefit-box:hover {
@@ -244,6 +231,7 @@
   height: 60px;
   object-fit: contain;
 }
+
 
 /* ---------------------------service---------------------------- */
   #services {
